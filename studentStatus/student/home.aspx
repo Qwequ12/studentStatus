@@ -76,13 +76,12 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
-                        <a href="project.html" class="nav-item nav-link">Projects</a>
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                        
                     </div>
                     <div class="ms-auto d-none d-lg-block">
                         <a href="login.aspx" class="btn btn-primary rounded-pill py-2 px-3">Login</a>
+                        <a href="../admin/Login.aspx" class="btn btn-primary rounded-pill py-2 px-3">Admin</a>
                     </div>
                 </div>
             </nav>
