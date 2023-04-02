@@ -13,5 +13,32 @@ namespace studentStatus.student
         {
 
         }
+
+        protected void GridView1_RowDataBound(object sender, GridViewRowEventArgs e)
+        {
+            GridViewRow row = e.Row;
+            if (row.RowType == DataControlRowType.DataRow)
+            {
+                Label lblstat = (Label)e.Row.FindControl("lblstatus");
+                Label lblcon = (Label)e.Row.FindControl("lblconfirm");
+                LinkButton lbldgprint = (LinkButton)e.Row.FindControl("lblprint");
+
+
+                if (lblstat.Text == "0" || lblstat.Text == "")
+                {
+                    lblcon.Text = "<b><font color=#0000FF>Pending</font></b>";
+                    //lbldgprint.Visible = false;
+                }
+                else if (lblstat.Text == "1")
+                {
+                    lblcon.Text = "<b><font color=#00FF00>Approved</font></b>";
+                }
+                else
+                {
+                    lblcon.Text = "<b><font color=#FF0000>Denied</font></b>";
+                    // lbldgprint.Visible = false;
+                }
+            }
+        }
     }
 }

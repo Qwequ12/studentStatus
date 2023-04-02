@@ -81,6 +81,7 @@
                         <a href="Request.aspx" class="nav-item nav-link">Request for residence</a>
                         <a href="Renew.aspx" class="nav-item nav-link">Renew status </a>
                         <a href="Status.aspx" class="nav-item nav-link">Check Status</a>
+                        <a href="complain.aspx" class="nav-item nav-link">Make a complain</a>
                     </div>
                     <div class="ms-auto d-none d-lg-block">
                         <asp:Label ID="lbluser" runat="server"></asp:Label>
@@ -112,14 +113,6 @@
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Ministry of the Interior | Accra-Ghana</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>030 268 4421</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i> info@mint.gov.gh</p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="#">About Us</a>
-                    <a class="btn btn-link" href="#">Contact Us</a>
-                    <a class="btn btn-link" href="#">Our Services</a>
-                    <a class="btn btn-link" href="#">Terms & Condition</a>
-                    <a class="btn btn-link" href="#">Support</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Business Hours</h4>

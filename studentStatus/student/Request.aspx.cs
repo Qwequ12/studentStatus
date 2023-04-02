@@ -25,7 +25,7 @@ namespace studentStatus.student
             SqlCommand cmd = new SqlCommand("InsertResidence", con);
             con.Open();
             cmd.CommandType = System.Data.CommandType.StoredProcedure;
-            cmd.Parameters.Add(new SqlParameter("Passportid", txtpassortid.Text));
+            cmd.Parameters.Add(new SqlParameter("@Passportid", txtpassortid.Text));
             cmd.Parameters.Add(new SqlParameter("@Purpose",drppurpose.Text));
             cmd.Parameters.Add(new SqlParameter("@HomeAddress",txthomeaddress.Text));
             cmd.Parameters.Add(new SqlParameter("@Number",txtphonenumber.Text));
