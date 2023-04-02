@@ -11,7 +11,7 @@ namespace studentStatus.admin
 {
 
 
-    public partial class info
+    public partial class answers
     {
 
         /// <summary>

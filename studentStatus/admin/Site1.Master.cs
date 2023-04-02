@@ -11,6 +11,14 @@ namespace studentStatus.admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["email"] != null)
+            {
+                lbluser.Text = (string)Session["email"];
+            }
+            else
+            {
+                Response.Redirect("Login.aspx");
+            }
 
         }
     }

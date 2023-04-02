@@ -108,8 +108,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="admin\AcceptRequest.aspx" />
+    <Content Include="admin\answers.aspx" />
     <Content Include="admin\info.aspx" />
     <Content Include="admin\Login.aspx" />
+    <Content Include="admin\solution.aspx" />
     <Content Include="admin\statusRequest.aspx" />
     <Content Include="bootstrap\css\sb-admin-2.css" />
     <Content Include="bootstrap\css\sb-admin-2.min.css" />
@@ -2892,6 +2895,20 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="admin\AcceptRequest.aspx.cs">
+      <DependentUpon>AcceptRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\AcceptRequest.aspx.designer.cs">
+      <DependentUpon>AcceptRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\answers.aspx.cs">
+      <DependentUpon>answers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\answers.aspx.designer.cs">
+      <DependentUpon>answers.aspx</DependentUpon>
+    </Compile>
     <Compile Include="admin\info.aspx.cs">
       <DependentUpon>info.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2912,6 +2929,13 @@
     </Compile>
     <Compile Include="admin\Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="admin\solution.aspx.cs">
+      <DependentUpon>solution.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\solution.aspx.designer.cs">
+      <DependentUpon>solution.aspx</DependentUpon>
     </Compile>
     <Compile Include="admin\statusRequest.aspx.cs">
       <DependentUpon>statusRequest.aspx</DependentUpon>
